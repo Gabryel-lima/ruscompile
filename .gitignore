@@ -1,0 +1,46 @@
+# Arquivos de compilação do Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Arquivos de assembly gerados
+*.s
+*.o
+*.out
+
+# Arquivos de teste
+*.test
+*.tmp
+
+# Logs
+*.log
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos de benchmark
+target/criterion/
+
+# Arquivos de documentação gerados
+docs/
+
+# Arquivos de exemplo compilados
+examples/*.s
+examples/*.o
+examples/*.out
+
+# Arquivos de backup
+*.bak
+*.backup
+
+# Arquivos temporários
+*.tmp
+*.temp 
