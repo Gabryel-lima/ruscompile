@@ -1,6 +1,4 @@
 use ruscompile::*;
-use std::fs;
-use std::path::Path;
 
 #[test]
 fn test_hello_world_compilation() {

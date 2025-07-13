@@ -264,7 +264,7 @@ mod tests {
     #[test]
     fn test_compiler_creation() {
         let compiler = Compiler::new();
-        assert_eq!(compiler.get_config().optimization_level, 0);
+        assert_eq!(compiler.get_config()._optimization_level, 0);
     }
 
     #[test]

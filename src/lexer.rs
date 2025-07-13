@@ -113,7 +113,7 @@ pub enum Token {
     Error,
     
     // Token especial para fim de arquivo
-    EOF,
+    Eof,
 }
 
 impl Token {
