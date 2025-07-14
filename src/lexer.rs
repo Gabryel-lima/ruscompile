@@ -258,7 +258,7 @@ impl Lexer {
             (line, column)
         };
         tokens.push(TokenInfo {
-            token: Token::EOF,
+            token: Token::Eof,
             location: Location {
                 line,
                 column,
